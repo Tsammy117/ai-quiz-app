@@ -1,4 +1,5 @@
 1. Project Overview
+   
 The AI Quiz App is an interactive web application that allows users to select a topic and receive a dynamically generated quiz with multiple-choice questions created by an AI model. After completing the quiz, users receive personalized feedback based on their performance.
 
 Key Features:
@@ -18,22 +19,6 @@ Key Libraries and Tools
 > Create React App (CRA): Bootstraps the React project with TypeScript support.
 > Axios: For making HTTP requests to the AI backend API.
 > CSS: Styling the app with custom CSS files.
-
-
-
-
-Project Structure (Frontend)
-src/
-├── components/
-│   ├── TopicSelection.tsx      # Topic selection UI
-│   ├── LoadingScreen.tsx       # Loading indicator UI
-│   ├── QuizScreen.tsx          # Quiz question display and answer input
-│   ├── ResultsScreen.tsx       # Display quiz results and feedback
-├── services/
-│   └── aiService.ts            # Handles AI API calls (quiz generation, feedback)
-├── types.ts                    # Shared TypeScript interfaces (Question, QuizData)
-├── App.tsx                    # Main app component managing state and screens
-├── App.css                    # Styling for the app
 
 Component Responsibilities
 > TopicSelection: Lets users pick a quiz topic.
