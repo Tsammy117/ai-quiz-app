@@ -37,7 +37,7 @@ export const generateQuizQuestions = async (topic: string): Promise<AIQuestion[]
       },
       {
         headers: {
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer ',
           'Content-Type': 'application/json',
           'HTTP-Referer': 'http://localhost:3000',
           'X-Title': 'AI Quiz App' 
@@ -102,7 +102,7 @@ export const generateFeedback = async (
       },
       {
         headers: {
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer ',
           'Content-Type': 'application/json',
           'HTTP-Referer': 'http://localhost:3000',
           'X-Title': 'AI Quiz App'
